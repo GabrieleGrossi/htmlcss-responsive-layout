@@ -55,3 +55,36 @@ section.sps{
     margin: auto;
 
 }
+
+/* Testimonial */
+
+section.testimonials{
+    margin: 0 auto;
+    width: 85%;
+}
+section.testimonials div.titole{
+    margin: 2rem 0 1.5rem;
+    text-align: center;
+}
+section.testimonials h2{
+    margin-bottom: 1.5rem;
+    color: purple;
+    font-size-adjust: 0.5;
+}
+section.testimonials p{
+    padding: 1rem;
+}
+section.testimonials div.test-1 h4{
+    text-align: center;
+}
+section.testimonials div.test-1{
+    width: 90%;
+    background-color: purple;
+    color: white;
+    height: 180px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+/* Benefits to work whit us */
+
