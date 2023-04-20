@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: #3d3dfb;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding-right: 0.5rem;
+}
+nav ul li button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+}
