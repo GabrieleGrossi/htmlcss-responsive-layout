@@ -87,4 +87,42 @@ section.testimonials div.test-1{
 }
 
 /* Benefits to work whit us */
+section.benefits{
+    background-color: lightpink;
+    margin: 0 auto;
+}
+section.benefits h2{
+    text-align: center;
+    text-size-adjust: 0.5;
+    padding-top: 1.5rem;
+}
+section.benefits div.card{
+    width: 85%;
+    height: 250px;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 20px;
+}
 
+/* About Us */
+section.about{
+    margin: 0 auto;
+
+}
+section.about h3{
+    color: pink;
+    text-size-adjust: 0.5;
+    padding-bottom: 1.5rem;
+}
+section.about p{
+    padding-bottom: 1.5rem;
+}
+section.about button{
+    background-color: pink;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid pink;
+    padding: 0.5rem;
+}
+
+/* Get started */
