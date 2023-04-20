@@ -162,3 +162,12 @@ section.get-started button{
 }
 
 /* Footer */
+footer{
+    background-color: black;
+    color: white;
+    margin:0 auto;
+    text-align: center;
+}
+footer p{
+    padding: 1.5rem 0;
+}
