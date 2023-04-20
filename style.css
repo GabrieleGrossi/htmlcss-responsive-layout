@@ -7,7 +7,10 @@
     display: flex;
     justify-content: space-between;
 }
-
+.column{
+    display: flex;
+    flex-direction: column;
+}
 /* Navbar */
 nav{
     background-color: #3d3dfb;
@@ -30,16 +33,44 @@ nav ul li button{
 /* Get a demo app */
 section.demo-app{
     margin: auto;
-
+}
+section.demo-app div.row-big{
+    height: 500px;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+}
+section.demo-app div.row-big h3{
+    color: blue;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+section.demo-app div.row-big p{
+    color: darkgray;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+section.demo-app div.row-big button{
+    background-color: #3d3dfb;
+    color: white;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #3d3dfb;
+    width: 85%;
+}
+section.demo-app div.row-big img{
+    width: 80%;
+    text-align: center;
 }
 section.demo-app div.row{
     height: 250px;
-    background-color: #3d3dfb;
+    background-color: lightblue;
     border-radius: 20px;
     width: 85%;
     margin: 3rem auto 2rem;
 }
-
 @media screen and (min-width: 480px) {
     section.demo-app div.row{
         width: 100%;
