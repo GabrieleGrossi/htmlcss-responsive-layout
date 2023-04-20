@@ -45,3 +45,13 @@ section.demo-app div.row{
         width: 100%;
     }
 }
+
+
+/* Strategic planning */
+
+section.sps{
+    background-color: blueviolet;
+    padding: 1.5rem;
+    margin: auto;
+
+}
