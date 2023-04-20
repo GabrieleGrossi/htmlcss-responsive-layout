@@ -107,12 +107,12 @@ section.benefits div.card{
 /* About Us */
 section.about{
     margin: 0 auto;
-
+    width: 85%;
 }
 section.about h3{
     color: pink;
-    text-size-adjust: 0.5;
     padding-bottom: 1.5rem;
+    font-size: 2rem;
 }
 section.about p{
     padding-bottom: 1.5rem;
@@ -126,3 +126,39 @@ section.about button{
 }
 
 /* Get started */
+section.get-started{
+    background-color: blueviolet;
+    margin: 0 auto;
+    padding-top: 3rem;
+    text-align: center;
+    color: white;
+}
+
+section.get-started h5{
+    color: grey;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+}
+section.get-started h3{
+    color: white;
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+}
+section.get-started h2{
+    color: orange;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+section.get-started p{
+    padding-bottom: 1rem;
+}
+section.get-started button{
+    color: blueviolet;
+    background-color: white;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    margin: 1.5rem;
+    border: 1px solid white;
+}
+
+/* Footer */
