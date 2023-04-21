@@ -175,6 +175,7 @@ section.testimonials div.test-1 img{
 section.benefits{
     background-color: #9593e6;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 section.benefits h2{
     text-align: center;
@@ -186,7 +187,7 @@ section.benefits div.card{
     background-color: white;
     color: #9593e6;
     margin: 0 auto;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     border-radius: 20px;
     width: 90%;
 }
@@ -218,24 +219,38 @@ section.about{
     width: 85%;
 }
 section.about h3{
-    color: pink;
-    padding-bottom: 1.5rem;
-    font-size: 2rem;
+    color: #9593e6;
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
 }
 section.about p{
     padding-bottom: 1.5rem;
 }
+section.about img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 2rem auto;
+}
+section.about h4{
+    color: #9593e6;
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+}
 section.about button{
-    background-color: pink;
-    border-radius: 15px;
+    background-color: #9593e6;
+    border-radius: 25px;
     color: white;
-    border: 1px solid pink;
+    border: 1px solid #9593e6;
     padding: 0.5rem;
+    width: 45%;
+    margin-bottom: 5rem;
 }
 
 /* Get started */
 section.get-started{
-    background-color: blueviolet;
+    background-color: #9593e6;
     margin: 0 auto;
     padding-top: 3rem;
     text-align: center;
