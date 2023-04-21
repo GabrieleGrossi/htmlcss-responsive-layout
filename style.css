@@ -213,11 +213,18 @@ section.testimonials div.test-1 img{
         margin: 1rem;
     }
     section.testimonials h2{
-        text-align: center;
         font-size: 2.5rem;
+        text-align: center;
     }
     section.testimonials p{
+        margin-top: 3rem;
         text-align: center;
+    }
+    section.testimonials div.test-1 div.second{
+        text-align: left;
+    }
+    section.testimonials h4{
+        text-align: left;
     }
 }
 /* Benefits to work whit us */
@@ -270,6 +277,9 @@ section.benefits div.card .content button{
     section.benefits div.card{
         width: calc((100% / 2) - 1.5rem);
     }
+    section.benefits div.card .content button{
+        width: calc(100% / 3);
+    }
 }
 /* About Us */
 section.about{
@@ -309,6 +319,7 @@ section.about button{
 @media screen and (min-width: 481px){
     section.about{
         display: flex;
+        margin-top: 3rem;
     }
     section.about div.col{
         width: 60%;
@@ -324,18 +335,6 @@ section.about button{
         font-size: 1.5rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* Get started */
 section.get-started{
     background-color: #9593e6;
@@ -344,7 +343,6 @@ section.get-started{
     text-align: center;
     color: white;
 }
-
 section.get-started h5{
     color: lightgrey;
     font-family: sans-serif;
@@ -374,7 +372,17 @@ section.get-started button{
     border: 1px solid white;
     width: 80%;
 }
-
+/* Get Started Tablet */
+@media screen and (min-width: 481px){
+    section.get-started p{
+        width:50%;
+        margin: 0 auto;
+    }
+    section.get-started button{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
 /* Footer */
 footer{
     background-color: #1c1d1d;
@@ -386,4 +394,10 @@ footer p{
     padding: 2.5rem 0;
     width: 90%;
     margin: 0 auto;
+}
+/* Footer Tablet */
+@media screen and (min-width: 481px){
+    footer p{
+        width: 50%;
+    }
 }
