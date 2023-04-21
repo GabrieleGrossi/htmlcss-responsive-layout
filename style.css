@@ -39,7 +39,6 @@ nav ul li button{
         margin: 0 auto;
     };
 }
-
 /* Get a demo app */
 section.demo-app{
     margin: auto;
@@ -98,7 +97,6 @@ section.demo-app div.cards p{
     padding: 2rem;
     color: #0084fd;
 }
-
 /* Get a demo Tablet */
 @media screen and (min-width: 481px) {
     section.demo-app div.card{
@@ -136,15 +134,7 @@ section.demo-app div.cards p{
     section.demo-app div.card-big{
         display: flex;
     }
-
-
 }
-
-
-
-
-
-
 /* Strategic planning */
 
 section.sps{
@@ -233,7 +223,6 @@ section.testimonials h2{
 section.testimonials p{
     padding: 1rem;
 }
-
 section.testimonials div.test-1{
     background-color: #9593e6;
     color: white;
@@ -400,7 +389,6 @@ section.about button{
         width: 60%;
     }
 }
-
 /* Get started */
 section.get-started{
     background-color: #9593e6;
