@@ -63,8 +63,11 @@ section.demo-app div.row-big button{
     width: 85%;
 }
 section.demo-app div.row-big img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 44px;
+    left: 10px;
 }
 section.demo-app div.row{
     background-color: lightblue;
