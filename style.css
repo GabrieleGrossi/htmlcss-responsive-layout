@@ -15,7 +15,7 @@ body{
     flex-direction: column;
 }
 /* Navbar */
-nav{
+header{
     background-color:  #0084fd;
     color: white;
     padding: 1.5rem;
@@ -31,6 +31,13 @@ nav ul li button{
     color: black;
     border-radius: 5px;
     border: 1px solid white;
+}
+/* Navbar Desktop */
+@media screen and (min-width: 768px){
+    nav {
+        width: 60%;
+        margin: 0 auto;
+    };
 }
 
 /* Get a demo app */
@@ -119,6 +126,22 @@ section.demo-app div.cards p{
         width: calc(100% / 3);
     }
 }
+/* Get a Demo Desktop */
+@media screen and (min-width: 768px){
+    section.demo-app{
+        width: 60%;
+    }
+    .text{
+        width: 50%;
+    }
+
+
+}
+
+
+
+
+
 
 /* Strategic planning */
 
@@ -166,7 +189,28 @@ section.sps div.card-sps p{
         font-size: 3.2rem;
     }
 }
-
+/* Strategic Planning Desktop */
+@media screen and (min-width:768px) {
+    section.sps{
+        display: flex;
+    }
+    section.sps div.main-sps{
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+    }
+    section.sps div.card-sps{
+        position:relative;
+        top:50px;
+    }
+    section.sps div.card-sps p{
+        font-size: 1rem;        
+    }
+    section.sps div.card-sps img{
+        width: 250px;
+        height: 250px;
+    }
+}
 /* Testimonial */
 
 section.testimonials{
@@ -227,6 +271,11 @@ section.testimonials div.test-1 img{
         text-align: left;
     }
 }
+@media screen and (min-width: 768px){
+    section.testimonials{
+        width: 60%;
+    }
+}
 /* Benefits to work whit us */
 section.benefits{
     background-color: #9593e6;
@@ -279,6 +328,12 @@ section.benefits div.card .content button{
     }
     section.benefits div.card .content button{
         width: calc(100% / 3);
+    }
+}
+/* Benefits Deskotp */
+@media screen and (min-width: 768px){
+    section.benefits div.card{
+        width: calc((100% / 3) - 1.5rem);
     }
 }
 /* About Us */
@@ -335,6 +390,13 @@ section.about button{
         font-size: 1.5rem;
     }
 }
+/* About Us Desktop */
+@media screen and (min-width: 768px){
+    section.about{
+        width: 60%;
+    }
+}
+
 /* Get started */
 section.get-started{
     background-color: #9593e6;
