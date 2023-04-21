@@ -37,24 +37,24 @@ nav ul li button{
 section.demo-app{
     margin: auto;
 }
-section.demo-app div.row-big{
+section.demo-app div.card-big{
     background-color: #b5ddff;
     border-radius: 20px;
     width: 85%;
     margin: 3rem auto 2rem;
     padding: 2.5rem 2rem;
 }
-section.demo-app div.row-big h3{
+section.demo-app div.card-big h3{
     color:  #0084fd;
     font-size: 2rem;
     padding-bottom: 2rem;
 }
-section.demo-app div.row-big p{
+section.demo-app div.card-big p{
     color: darkgray;
     font-size: 1.2rem;
     padding-bottom: 2rem;
 }
-section.demo-app div.row-big button{
+section.demo-app div.card-big button{
     background-color:  #0084fd;
     color: white;
     border-radius: 25px;
@@ -62,26 +62,26 @@ section.demo-app div.row-big button{
     border: 1px solid #0084fd;
     width: 85%;
 }
-section.demo-app div.row-big img{
+section.demo-app div.card-big img{
     width: 300px;
     height: 300px;
     position: relative;
     top: 44px;
     left: 10px;
 }
-section.demo-app div.row{
+section.demo-app div.cards{
     background-color: #b5ddff;
     border-radius: 20px;
     width: 85%;
     margin: 3rem auto 2rem;
     text-align: center;
 }
-section.demo-app div.row h3{
+section.demo-app div.cards h3{
     color: #0084fd;
     font-size: 2rem;
     padding-bottom: 2rem;
 }
-section.demo-app div.row p{
+section.demo-app div.cards p{
     color: darkgray;
     font-size: 1.2rem;
     padding-bottom: 2rem;
@@ -92,13 +92,33 @@ section.demo-app div.row p{
     color: #0084fd;
 }
 
-/* Get a demo  */
-@media screen and (min-width: 480px) {
-    section.demo-app div.row{
+/* Get a demo Tablet */
+@media screen and (min-width: 481px) {
+    section.demo-app div.card{
         width: 100%;
     }
+    .column{
+        flex-direction: row;
+        align-items: stretch;
+        gap: 2rem;
+    }
+    section.demo-app{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.demo-app div.card-big{
+        width: calc((100% / 3) * 2);
+    }
+    section.demo-app div.row{
+        width: 90%;
+        display: flex;
+        gap: 0.5rem;
+        margin: 0 auto;
+    }
+    section.demo-app div.cards{
+        width: calc(100% / 3);
+    }
 }
-
 
 /* Strategic planning */
 
@@ -139,6 +159,14 @@ section.sps div.card-sps p{
     padding: 0.8rem;
     margin: 2rem;
 }
+/* Strategic planning Tablet */
+
+@media screen and (min-width: 481px){
+    section.sps h2{
+        font-size: 3.2rem;
+    }
+}
+
 /* Testimonial */
 
 section.testimonials{
@@ -176,6 +204,25 @@ section.testimonials div.test-1 img{
     object-fit: cover;
     margin: 2rem auto;
 }
+/* Testimonials Tablet */
+@media screen and (min-width: 481px){
+    section.testimonials div.test-1 {
+        display: flex;        
+    }
+    section.testimonials div.test-1 img{
+        margin: 1rem;
+    }
+    section.testimonials h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    section.testimonials p{
+        text-align: center;
+    }
+}
+
+
+
 
 /* Benefits to work whit us */
 section.benefits{
@@ -218,6 +265,15 @@ section.benefits div.card .content button{
     border-radius: 25px;
     border: 1px solid #9593e6;
     width: 50%;
+}
+/* Benefits Tablet */
+@media screen and (min-width: 481px){
+    section.benefits .row2{
+        display: flex;
+    }
+    section.benefits div.card{
+        width: calc((100% / 2) - 1.5rem);
+    }
 }
 /* About Us */
 section.about{
