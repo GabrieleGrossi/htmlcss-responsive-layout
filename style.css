@@ -145,7 +145,7 @@ section.testimonials div.titole{
 }
 section.testimonials h2{
     margin-bottom: 1.5rem;
-    color: purple;
+    color: #9593e6;
     font-size-adjust: 0.5;
 }
 section.testimonials p{
@@ -153,7 +153,7 @@ section.testimonials p{
 }
 
 section.testimonials div.test-1{
-    background-color: purple;
+    background-color: #9593e6;
     color: white;
     border-radius: 40px;
     text-align: center;
@@ -173,22 +173,45 @@ section.testimonials div.test-1 img{
 
 /* Benefits to work whit us */
 section.benefits{
-    background-color: lightpink;
+    background-color: #9593e6;
     margin: 0 auto;
 }
 section.benefits h2{
     text-align: center;
-    text-size-adjust: 0.5;
-    padding-top: 1.5rem;
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
 }
 section.benefits div.card{
-    width: 85%;
-    height: 250px;
     background-color: white;
-    margin: 2rem;
+    color: #9593e6;
+    margin: 0 auto;
+    margin-bottom: 5rem;
     border-radius: 20px;
+    width: 90%;
 }
-
+section.benefits div.card .content{
+    padding: 2rem 1.5rem;
+}
+section.benefits div.card .content h3{
+    font-size: 3rem;
+}
+section.benefits div.card .content h4{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+section.benefits div.card .content p{
+    color: black;
+    padding: 2rem 0;
+}
+section.benefits div.card .content button{
+    background-color: #9593e6;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #9593e6;
+    width: 50%;
+}
 /* About Us */
 section.about{
     margin: 0 auto;
