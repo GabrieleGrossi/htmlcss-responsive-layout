@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family:'PT Sans', sans-serif;;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -35,11 +38,10 @@ section.demo-app{
     margin: auto;
 }
 section.demo-app div.row-big{
-    height: 500px;
     background-color: lightblue;
     border-radius: 20px;
     width: 85%;
-    margin: 0 auto;
+    margin: 3rem auto 2rem;
     padding: 2.5rem 2rem;
 }
 section.demo-app div.row-big h3{
@@ -61,15 +63,30 @@ section.demo-app div.row-big button{
     width: 85%;
 }
 section.demo-app div.row-big img{
-    width: 80%;
-    text-align: center;
+    width: 200px;
+    height: 200px;
 }
 section.demo-app div.row{
-    height: 250px;
     background-color: lightblue;
     border-radius: 20px;
     width: 85%;
     margin: 3rem auto 2rem;
+    text-align: center;
+}
+section.demo-app div.row h3{
+    color: blue;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+section.demo-app div.row p{
+    color: darkgray;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+.logo{
+    font-size: 4rem;
+    padding: 2rem;
+    color: blue;
 }
 @media screen and (min-width: 480px) {
     section.demo-app div.row{
